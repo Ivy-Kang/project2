@@ -1,18 +1,31 @@
-nav ul {
+#main-navbar {
+  background-color: #E1F5FE;
+  overflow: hidden;
+}
+
+#navbar-container {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+#main-navbar ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  background-color: #E1F5FE;
+  position: relative;
+  left: 50%;
+  float: left;  
   display: inline-block;
 }
 
-nav ul li {
+#main-navbar ul li {
   float: left;
   margin: 0 15px;
+  display: block;
+  position: relative;
 }
 
-nav ul li a {
+#main-navbar ul li a {
   display: block;
   text-decoration: none;
   font-family: 'Lora', cursive;
@@ -23,20 +36,18 @@ nav ul li a {
   padding: 10px 20px;
 }
 
-nav ul li a:hover {
+#main-navbar ul li a:hover {
   text-decoration: underline;
 }
 
+#onpage {
+  text-decoration: underline;
+}
 
 .container {
   width: 960px;
   margin: 0 auto;
   overflow: hidden;
-
-#Contact-Information{
-  font-size:40px;
-}  
-
 
 p a {
   font-family: 'Hin Silliguri', cursive;
@@ -49,11 +60,6 @@ h1, h2, h3 {
   font-size: 40px;
 } 
 
-#main {
-  padding: 10% 20%;
-  background-color: white;
-}
-
 #footer {
   clear: left;
   background-color: #E1F5FE;
@@ -61,10 +67,6 @@ h1, h2, h3 {
   padding: 5%;
   color: black;	
   font-family: 'Lora', cursive;
-}
-
-hr {
-  border: 5px solid black;
 }
 
 .img {
@@ -75,9 +77,8 @@ hr {
 }
 
 iframe {
-  height: 400px;
-  width: 100%;
-  object-fit: contain;
+  height: 300px;
+  width: 500px;
   position: static;
   border: 0;
 }
