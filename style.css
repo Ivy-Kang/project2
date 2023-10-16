@@ -23,6 +23,61 @@ nav ul li a {
   padding: 10px 20px;
 }
 
-li a:hover {
+nav ul li a:hover {
   text-decoration: underline;
+}
+
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+  overflow: hidden;
+
+#Contact-Information{
+  font-size:40px;
+}  
+
+
+p a {
+  font-family: 'Hin Silliguri', cursive;
+  text-decoration: none;
+  color: black;
+}
+
+h1, h2, h3 {
+  font-family: 'Lora', cursive;
+  font-size: 40px;
+} 
+
+#main {
+  padding: 10% 20%;
+  background-color: white;
+}
+
+#footer {
+  clear: left;
+  background-color: #E1F5FE;
+  font-size: 20px;
+  padding: 5%;
+  color: black;	
+  font-family: 'Lora', cursive;
+}
+
+hr {
+  border: 5px solid black;
+}
+
+.img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  position: static;
+}
+
+iframe {
+  height: 400px;
+  width: 100%;
+  object-fit: contain;
+  position: static;
+  border: 0;
 }
