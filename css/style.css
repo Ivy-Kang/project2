@@ -49,6 +49,7 @@
   width: 960px;
   margin: 0 auto;
   overflow: hidden;
+  text-align: center;
 }  
 
 #container p {
@@ -69,6 +70,7 @@ h1, h2, h3 {
   padding: 10px 20px;
   color: black;	
   font-family: 'Lora', cursive;
+  text-align: left;
 }
 
 .img {
