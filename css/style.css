@@ -1,17 +1,29 @@
-nav ul {
+#main-navbar {
+  background-color: #E1F5FE;
+  overflow: hidden;
+}
+
+#navbar-container {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+#main-navbar ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #E1F5FE;
+  position: relative;
+  float: left;
+  padding: 0;  
 }
 
-nav ul li {
+#main-navbar ul li {
   float: left;
   margin: 0 15px;
+  display: block;
+  position: relative;
 }
 
-nav ul li a {
+#main-navbar ul li a {
   display: block;
   text-decoration: none;
   font-family: 'Lora', cursive;
@@ -19,6 +31,52 @@ nav ul li a {
   font-style: italic;
   font-weight: bold;
   color: black;
-  padding: 20px 40px;
+  padding: 10px 20px;
 }
 
+#main-navbar ul li a:hover {
+  text-decoration: underline;
+}
+
+#onpage {
+  text-decoration: underline;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+  overflow: hidden;
+
+p a {
+  font-family: 'Hin Silliguri', cursive;
+  text-decoration: none;
+  color: black;
+}
+
+h1, h2, h3 {
+  font-family: 'Lora', cursive;
+  font-size: 40px;
+} 
+
+#footer {
+  clear: left;
+  background-color: #E1F5FE;
+  font-size: 20px;
+  padding: 5%;
+  color: black;	
+  font-family: 'Lora', cursive;
+}
+
+.img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  position: static;
+}
+
+iframe {
+  height: 300px;
+  width: 500px;
+  position: static;
+  border: 0;
+}
