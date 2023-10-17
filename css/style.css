@@ -91,9 +91,29 @@ iframe {
   color: purple;
 }  
 
+#aboutme-wrapper h1{
+  text-decoration: underline;
+}
+
 #favdessert-wrapper {
   padding: 10px;
   text-align: center;
   background-color: #FFFDE7;
 }  
 
+#favdessert-wrapper h1{
+  border: solid peru 10px;
+  border-style: double;
+  background-color: wheat;
+  margin: 10px 300px;
+  color: brown;
+}     
+
+#favdessert-wrapper p{
+  font-family: 'Hin Silliguri', cursive;
+  text-decoration: none;
+}
+
+#favdessert-wrapper h3{
+  font-size: 20px;
+}  
