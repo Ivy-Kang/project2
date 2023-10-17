@@ -49,8 +49,9 @@
   width: 960px;
   margin: 0 auto;
   overflow: hidden;
+}  
 
-p {
+#container p {
   font-family: 'Hin Silliguri', cursive;
   text-decoration: none;
   color: black;
@@ -58,14 +59,14 @@ p {
 
 h1, h2, h3 {
   font-family: 'Lora', cursive;
-  font-size: 40px;
+  font-size: 30px;
 } 
 
 #footer {
   clear: left;
   background-color: #E1F5FE;
-  font-size: 20px;
-  padding: 5%;
+  font-size: 18px;
+  padding: 10px 20px;
   color: black;	
   font-family: 'Lora', cursive;
 }
@@ -83,3 +84,9 @@ iframe {
   position: static;
   border: 0;
 }
+
+#aboutme-wrapper {
+  padding: 10px;
+  text-align: center;
+  color: purple;
+}  
