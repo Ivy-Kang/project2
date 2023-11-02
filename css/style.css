@@ -88,7 +88,7 @@ iframe {
 }
 
 #aboutme-wrapper {
-  padding: 10px;
+  padding: 0% 2%;
   text-align: center;
   color: purple;
 }  
@@ -98,16 +98,16 @@ iframe {
 }
 
 #favdessert-wrapper {
-  padding: 10px;
+  padding: 0% 2%;
   text-align: center;
   background-color: #FFFDE7;
 }  
 
 #favdessert-wrapper h1{
-  border: solid peru 10px;
+  border: solid peru 0.5em;
   border-style: double;
   background-color: wheat;
-  margin: 10px 300px;
+  margin: 2% 25%;
   color: brown;
 }     
 
@@ -117,5 +117,5 @@ iframe {
 }
 
 #favdessert-wrapper h3{
-  font-size: 20px;
+  font-size: 1.5em;
 }  
